@@ -1,6 +1,6 @@
 <?php
 
-namespace teachme;
+namespace teachme\Entities;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
