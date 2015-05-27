@@ -13,8 +13,8 @@
 
 Route::get('/',[
 
-	'as'   => 'tickets.laster',
-	'uses' => 'TicketsController@laster'
+	'as'   => 'tickets.lastets',
+	'uses' => 'TicketsController@lastets'
 	]);
 
 Route::get('/populares',[

@@ -8,9 +8,9 @@ use Illuminate\Http\Request;
 class TicketsController extends Controller
 {
 
-	public function laster()
+	public function lastets()
 	{
-		dd('last');
+		return view('tickets/list');
 	}
 	public function popular()
 	{
@@ -18,7 +18,7 @@ class TicketsController extends Controller
 	}
 	public function details($id)
 	{
-		dd('datails'. $id);
+		return view('tickets/details');
 	}
 	public function open()
 	{
