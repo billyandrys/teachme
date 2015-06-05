@@ -8,26 +8,25 @@ use Illuminate\Http\Request;
 class TicketsController extends Controller
 {
 
-	public function lastets()
+	public function latest()
 	{
 		return view('tickets/list');
 	}
 	public function popular()
-	{
-		dd('popular');
-	}
-	public function details($id)
-	{
-		return view('tickets/details');
-	}
-	public function open()
-	{
-		dd('open');
-	}	
-
-	public function closed()
-	{
-		dd('closed');
-	}	
+    {
+        return view('tickets/list');
+    }
+    public function open()
+    {
+        return view('tickets/list');
+    }
+    public function closed()
+    {
+        return view('tickets/list');
+    }
+    public function details($id)
+    {
+        return view('tickets/details');
+    }
 
 }

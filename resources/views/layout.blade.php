@@ -7,7 +7,7 @@
     <title>TeachMe by duilio.me</title>
 
     {!! Html::style('/assets/css/style.css') !!}
-    <!-- <link href="{{ asset('/assets/css/style.css') }}" rel="stylesheet"> -->
+   
 
     <!-- Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Slab:300,700' rel='stylesheet' type='text/css'>
@@ -38,21 +38,8 @@
 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-                    <ul class="nav navbar-nav">
-                        <li role="presentation">
-                            <a href="http://teachme.dev">Recientes</a>
-                        </li>
-                        <li role="presentation">
-                            <a href="http://teachme.dev/populares">Populares</a>
-                        </li>
-                        <li role="presentation">
-                            <a href="http://teachme.dev/pendientes">Abiertas</a>
-                        </li>
-                        <li role="presentation">
-                            <a href="http://teachme.dev/tutoriales">Finalizadas</a>
-                        </li>
-                    </ul>
-
+                    
+                    {!! Html::menu('teachme.menu') !!}
 
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown">
